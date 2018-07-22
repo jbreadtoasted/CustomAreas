@@ -121,7 +121,7 @@ class Main extends PluginBase{
 			break;
 			case 'whitelist':
 				if(!isset($args[0])){
-					$sender->sendMessage('Usage: /ca whitelist add/remove/list');
+					$sender->sendMessage('Usage: /c whitelist add/remove/list');
 				}
 				switch(strtolower(array_shift($args))){
 					case 'add':
@@ -186,7 +186,7 @@ class Main extends PluginBase{
 						return true;
 					break;
 					default:
-						$sender->sendMessage('Usage: /ca whitelist add/remove/list');
+						$sender->sendMessage('Usage: /c whitelist add/remove/list');
 						return true;
 				}
 			break;
