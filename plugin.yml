@@ -8,8 +8,8 @@ website: https://github.com/luca28pet/CustomAreas
 commands:
  customareas:
   description: Manage areas
-  usage: "/ca pos1|pos2|create|delete|whitelist"
-  aliases: [ca]
+  usage: "/c pos1|pos2|create|delete|whitelist"
+  aliases: [c]
   permission: customareas.command
 permissions:
  customareas.command:
