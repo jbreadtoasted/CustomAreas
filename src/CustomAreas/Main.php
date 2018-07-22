@@ -50,7 +50,7 @@ class Main extends PluginBase{
 			return true;
 		}
 		if(!isset($args[0])){
-			$sender->sendMessage('CustomAreas plugin by luca28pet.');
+			$sender->sendMessage('Land Claim Plugin');
 			$sender->sendMessage($command->getUsage());
 			return true;
 		}
